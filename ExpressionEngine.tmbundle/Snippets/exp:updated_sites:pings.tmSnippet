@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:updated_sites:pings which="${1:default}" orderby="${2:title}" limit="${3:20}"}
+&lt;${4:p}&gt;&lt;a href="{ping_site_url}"&gt;{ping_site_name}&lt;/a&gt;&lt;/${4:p}&gt;
+{/exp:updated_sites:pings}
+$0</string>
+	<key>name</key>
+	<string>exp:updated_sites:pings</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>pings</string>
+	<key>uuid</key>
+	<string>FD133743-A214-419D-974B-0539D8FEC156</string>
+</dict>
+</plist>

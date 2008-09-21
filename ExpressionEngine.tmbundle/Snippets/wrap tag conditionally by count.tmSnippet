@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{if count == "1"}&lt;${1:ul}&gt;{/if}
+${0:$TM_SELECTED_TEXT}
+{if count == total_results}&lt;/$1&gt;{/if}</string>
+	<key>keyEquivalent</key>
+	<string>^@i</string>
+	<key>name</key>
+	<string>wrap tag conditionally by count</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>if</string>
+	<key>uuid</key>
+	<string>CFF8D6AB-5209-4155-88C9-065CE0CD4B4A</string>
+</dict>
+</plist>

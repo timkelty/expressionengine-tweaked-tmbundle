@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:ee_typography formatting="${1:XHTML/br/none/lite}"${2:${3: allowed_html="${4:SAFE/none/all}"} ${5: auto_link="${6:Y/n}"} ${7: allow_image_urls="${8:y/N}"}}}${9:$TM_SELECTED_TEXT}{/exp:ee_typography}</string>
+	<key>keyEquivalent</key>
+	<string>^@p</string>
+	<key>name</key>
+	<string>exp:ee_typography</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>typo</string>
+	<key>uuid</key>
+	<string>18A642C9-A652-415C-8C0A-52F139E7FAC9</string>
+</dict>
+</plist>

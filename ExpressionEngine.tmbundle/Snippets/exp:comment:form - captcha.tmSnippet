@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{if captcha}
+&lt;${1:p}&gt;Please enter the word you see in the image below:&lt;/${1:p}&gt;
+&lt;${2:p}&gt;{captcha}&lt;br /&gt;
+&lt;input type="text" name="captcha" value="{captcha_word}" maxlength="${3:20}" /&gt;&lt;/${2:p}&gt;
+{/if}
+$0</string>
+	<key>name</key>
+	<string>exp:comment:form - captcha</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>captcha</string>
+	<key>uuid</key>
+	<string>AC5936D4-0359-4B09-8EDA-DD940A2539A7</string>
+</dict>
+</plist>

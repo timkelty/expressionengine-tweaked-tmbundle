@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;a{if ${1:embed:my-entry-id} == ${2:entry_id}} class="active"{/if} href="${3:${4:{url_title_path\}}=${5:{embed:my-template-group\}}$6}"&gt;${7:{title\}}&lt;/a&gt;$0</string>
+	<key>name</key>
+	<string>conditionally class navigation link</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>if</string>
+	<key>uuid</key>
+	<string>40A756F6-4E4F-46F0-B3BA-AB69F111CD9B</string>
+</dict>
+</plist>

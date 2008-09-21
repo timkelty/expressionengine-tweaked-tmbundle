@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:weblog:next_entry weblog="${1:weblog1}"}
+&lt;${2:p}&gt;${3:Next entry:} &lt;a href="{path="${4:weblog/comments}"}"&gt;{title}&lt;/a&gt;&lt;/${2:p}&gt;
+{/exp:weblog:next_entry}
+$0</string>
+	<key>name</key>
+	<string>exp:weblog:next_entry</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>next</string>
+	<key>uuid</key>
+	<string>24C5FA94-018E-49DD-948D-869DC0A1E070</string>
+</dict>
+</plist>

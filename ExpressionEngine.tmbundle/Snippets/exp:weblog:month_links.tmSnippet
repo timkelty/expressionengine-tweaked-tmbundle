@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:weblog:month_links weblog="${1:weblog1}" ${2:parameters}}
+$0
+{/exp:weblog:month_links}</string>
+	<key>name</key>
+	<string>exp:weblog:month_links</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>month_links</string>
+	<key>uuid</key>
+	<string>51D4F1A1-8108-4376-807B-B8B87B352DF6</string>
+</dict>
+</plist>

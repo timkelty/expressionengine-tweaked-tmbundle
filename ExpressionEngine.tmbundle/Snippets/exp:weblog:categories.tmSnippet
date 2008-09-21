@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:weblog:categories weblog="${1:weblog1}" ${2:parameters}}
+$0
+{/exp:weblog:categories}</string>
+	<key>name</key>
+	<string>exp:weblog:categories</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>cat</string>
+	<key>uuid</key>
+	<string>102E62EB-A680-4FEE-952A-1E53B204E4F7</string>
+</dict>
+</plist>

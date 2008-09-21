@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:member:ignore_list}
+$0
+{/exp:member:ignore_list}</string>
+	<key>name</key>
+	<string>exp:member:ignore_list</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>member</string>
+	<key>uuid</key>
+	<string>4DFF8F77-A28E-476F-8D82-C36959DFB328</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{paginate}
+&lt;${1:div}&gt;${2:Page {current_page\} of {total_pages\} pages}${3: }${4:{pagination_links\}}&lt;/${1/\s.*//}&gt;
+{/paginate}
+$0</string>
+	<key>name</key>
+	<string>exp:weblog:entries - paginate</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>page</string>
+	<key>uuid</key>
+	<string>1EEA4ABF-CBB5-4456-9EBD-9B6BDD3C7C87</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:weblog:entries ${1:weblog}="${2:value}"${3: disable="${4:custom_fields|}${5:categories|}${6:category_fields|}${7:member_data|}${8:pagination|}${9:trackbacks}"}${10: dynamic="off"}${11: parameters}}
+${12:{if no_results\}${13:{redirect="${14:404}"\}}{/if\}}
+${15:$TM_SELECTED_TEXT}
+{/exp:weblog:entries}$0</string>
+	<key>keyEquivalent</key>
+	<string>^@e</string>
+	<key>name</key>
+	<string>exp:weblog:entries</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>entries</string>
+	<key>uuid</key>
+	<string>1B01FC50-3ABF-4362-AF32-BB7F53940F56</string>
+</dict>
+</plist>

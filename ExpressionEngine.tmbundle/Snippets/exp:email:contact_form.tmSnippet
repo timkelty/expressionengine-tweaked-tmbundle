@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:email:contact_form ${1:parameters}}
+$2
+{/exp:email:contact_form}</string>
+	<key>name</key>
+	<string>exp:email:contact_form</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>contact</string>
+	<key>uuid</key>
+	<string>1F8228A7-2EE4-4C69-99D8-A5B0B2B341EC</string>
+</dict>
+</plist>

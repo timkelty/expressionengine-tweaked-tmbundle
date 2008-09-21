@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{encode="${1:you@yoursite.com}" title="${2:Email Address}"}$0</string>
+	<key>name</key>
+	<string>encode</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>encode</string>
+	<key>uuid</key>
+	<string>CE4EADA6-06D9-4D93-AF56-FF42BB822FD3</string>
+</dict>
+</plist>

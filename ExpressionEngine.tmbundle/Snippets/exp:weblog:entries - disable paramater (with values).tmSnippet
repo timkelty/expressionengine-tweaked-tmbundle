@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>disable="${1:custom_fields|}${2:categories|}${3:category_fields|}${4:member_data|}${5:pagination|}${6:trackbacks}"$0</string>
+	<key>name</key>
+	<string>exp:weblog:entries - disable paramater (with values)</string>
+	<key>scope</key>
+	<string>text.html, text.xhtml</string>
+	<key>tabTrigger</key>
+	<string>disable</string>
+	<key>uuid</key>
+	<string>D44DC36F-3E45-41F9-A238-98F13312312D</string>
+</dict>
+</plist>
