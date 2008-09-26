@@ -10,7 +10,7 @@ $6</string>
 	<key>name</key>
 	<string>exp:gallery:prev_entry</string>
 	<key>scope</key>
-	<string>text.html, text.xhtml</string>
+	<string>v</string>
 	<key>tabTrigger</key>
 	<string>prev</string>
 	<key>uuid</key>

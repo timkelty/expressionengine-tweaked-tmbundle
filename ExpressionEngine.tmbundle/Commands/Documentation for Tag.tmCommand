@@ -94,7 +94,7 @@ puts "&lt;meta http-equiv='Refresh' content='0;URL=#{url}'&gt;"</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>text.html,text.xhtml,text.xml</string>
+	<string>text.html.ee</string>
 	<key>uuid</key>
 	<string>1DE2BBDE-204B-449B-BCE0-F9B75576D7F4</string>
 </dict>

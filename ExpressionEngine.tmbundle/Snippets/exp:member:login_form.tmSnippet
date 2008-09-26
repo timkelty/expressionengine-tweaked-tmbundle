@@ -25,7 +25,7 @@
 	<key>name</key>
 	<string>exp:member:login_form</string>
 	<key>scope</key>
-	<string>text.html, text.xhtml</string>
+	<string>text.html.ee</string>
 	<key>tabTrigger</key>
 	<string>member</string>
 	<key>uuid</key>

@@ -9,7 +9,7 @@ $0
 	<key>name</key>
 	<string>exp:weblog:month_links</string>
 	<key>scope</key>
-	<string>text.html, text.xhtml</string>
+	<string>text.html.ee</string>
 	<key>tabTrigger</key>
 	<string>month_links</string>
 	<key>uuid</key>

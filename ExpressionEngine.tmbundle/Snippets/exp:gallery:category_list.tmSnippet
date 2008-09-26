@@ -10,7 +10,7 @@ $0</string>
 	<key>name</key>
 	<string>exp:gallery:category_list</string>
 	<key>scope</key>
-	<string>text.html, text.xhtml</string>
+	<string>text.html.ee</string>
 	<key>tabTrigger</key>
 	<string>cat</string>
 	<key>uuid</key>

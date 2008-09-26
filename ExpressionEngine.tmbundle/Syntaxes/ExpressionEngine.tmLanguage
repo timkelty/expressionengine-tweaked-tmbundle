@@ -26,6 +26,31 @@
 			<string>#ee-comment</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>(DOCTYPE)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.tag.doctype.html</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?=&gt;)</string>
+			<key>name</key>
+			<string>meta.tag.sgml.doctype.html</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>"[^"&gt;]*"</string>
+					<key>name</key>
+					<string>string.quoted.double.doctype.identifiers-and-DTDs.html</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
 			<key>comment</key>
 			<string>This is set to use XHTML standards, but you can change that by changing .strict to .basic for HTML standards</string>
 			<key>include</key>
