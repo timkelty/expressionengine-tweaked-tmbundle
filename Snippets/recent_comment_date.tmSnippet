@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{recent_comment_date format="${1:%Y %m %d}"}$0</string>
+	<key>name</key>
+	<string>recent_comment_date</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>date</string>
+	<key>uuid</key>
+	<string>2512CE7E-E14D-46FD-AE13-AD17F132D4CE</string>
+</dict>
+</plist>

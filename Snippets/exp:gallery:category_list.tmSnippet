@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:gallery:category_list gallery="${1:gallery}"}
+$2
+{/exp:gallery:category_list}
+$0</string>
+	<key>name</key>
+	<string>exp:gallery:category_list</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>cat</string>
+	<key>uuid</key>
+	<string>BF3FDC42-023B-416C-971C-8EFF82A01800</string>
+</dict>
+</plist>

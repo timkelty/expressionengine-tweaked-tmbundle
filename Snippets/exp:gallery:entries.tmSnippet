@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:gallery:entries gallery="${1:gallery}" orderby="${2:entry_date}" columns="${3:3}" rows="${4:2}"}
+&lt;table id="$5" class="$6"&gt;
+	{entries}
+	{row_start}&lt;tr&gt;{/row_start}
+		{row}
+		&lt;td&gt;
+			$7
+		&lt;/td&gt;
+		{/row}
+	{row_end}&lt;/tr&gt;{/row_end}
+	{/entries}
+&lt;/table&gt;
+{/exp:gallery:entries}</string>
+	<key>name</key>
+	<string>exp:gallery:entries</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>entries</string>
+	<key>uuid</key>
+	<string>B70DCC0E-3CA3-4E34-A361-94C6AB7DF0D8</string>
+</dict>
+</plist>

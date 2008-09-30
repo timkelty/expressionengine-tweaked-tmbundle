@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{${1:my_matrix}${2: limit="${3:value}"}${4: disable="${5:headers|rows|cells}"}${6: flip="${7:y}"}}
+${8:{headers\}$9{/headers\}}
+${10:{rows\}
+	${11:{cells\}${12:$TM_SELECTED_TEXT}{/cells\}}
+{/rows\}}
+{/$1}</string>
+	<key>keyEquivalent</key>
+	<string>^@p</string>
+	<key>name</key>
+	<string>LG Data Matrix</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>lg</string>
+	<key>uuid</key>
+	<string>552C5420-5BBB-4471-A4BE-98190592F5C3</string>
+</dict>
+</plist>

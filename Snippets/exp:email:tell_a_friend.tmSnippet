@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:email:tell_a_friend ${1:parameters}}
+$2
+{/exp:email:tell_a_friend}</string>
+	<key>name</key>
+	<string>exp:email:tell_a_friend</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>friend</string>
+	<key>uuid</key>
+	<string>5E92D401-013B-487F-83E1-AE2BDCA7DD81</string>
+</dict>
+</plist>

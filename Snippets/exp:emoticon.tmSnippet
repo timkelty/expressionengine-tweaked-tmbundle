@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;table id="$1" class="$2"&gt;
+	{exp:emoticon columns="${3:4}"}
+	&lt;tr class="${4:row}"&gt;
+		&lt;td class="${5:red}"&gt;&lt;${6:div}&gt;{smiley}&lt;/${6}&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	{/exp:emoticon}
+&lt;/table&gt;
+$7</string>
+	<key>name</key>
+	<string>exp:emoticon</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>smiley</string>
+	<key>uuid</key>
+	<string>5C05E03C-2F7A-4D59-B2D0-26A154A14267</string>
+</dict>
+</plist>
