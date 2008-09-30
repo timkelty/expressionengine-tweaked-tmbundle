@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{gmt_entry_date format="${1:%Y %m %d}"}$0</string>
+	<key>name</key>
+	<string>gmt_entry_date</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>date</string>
+	<key>uuid</key>
+	<string>3D50A9A4-0D21-43EE-8A2B-DDC488E843B2</string>
+</dict>
+</plist>

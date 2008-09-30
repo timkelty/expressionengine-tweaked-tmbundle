@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:gallery:comments gallery="${1:gallery}" ${2:parameters}}
+&lt;${3:p}&gt;{comment}&lt;/${3:p}&gt;$4
+{/exp:gallery:comments}
+$0</string>
+	<key>name</key>
+	<string>exp:gallery:comments</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>comments</string>
+	<key>uuid</key>
+	<string>16FF3A91-8418-4133-9733-A6F9B1085836</string>
+</dict>
+</plist>

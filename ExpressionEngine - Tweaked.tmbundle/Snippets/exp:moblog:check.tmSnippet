@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:moblog:check silent="${1:true}" which="$2"}$0</string>
+	<key>name</key>
+	<string>exp:moblog:check</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>moblog</string>
+	<key>uuid</key>
+	<string>6CC6B583-56F9-4967-9C7D-DB9324BFB590</string>
+</dict>
+</plist>

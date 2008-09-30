@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{reverse_related_entries${1: weblog="${2:weblog_short_name}"}${3: ${4:status|sort|orderby|offset|limit}="${5:value}"}}${6:$TM_SELECTED_TEXT}{/reverse_related_entries}$0</string>
+	<key>keyEquivalent</key>
+	<string>^@e</string>
+	<key>name</key>
+	<string>exp:weblog:entries - reverse_related_entries</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>rel</string>
+	<key>uuid</key>
+	<string>C682A616-B55D-4771-BF19-2DC364A4F86F</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{current_time format="${1:%Y %m %d %H:%i:%s}"}$0	</string>
+	<key>name</key>
+	<string>current_time</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>time</string>
+	<key>uuid</key>
+	<string>956FD1E4-696D-4C3E-8A4E-17E4DFB4D2F4</string>
+</dict>
+</plist>

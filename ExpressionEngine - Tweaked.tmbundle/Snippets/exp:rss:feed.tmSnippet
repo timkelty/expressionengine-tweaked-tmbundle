@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:rss:feed weblog="${1:weblog1}"${2: parameters}}
+$0
+{/exp:rss:feed}</string>
+	<key>name</key>
+	<string>exp:rss:feed</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>feed</string>
+	<key>uuid</key>
+	<string>96AE019F-387B-4D2A-9E76-9299FF4C5FB2</string>
+</dict>
+</plist>

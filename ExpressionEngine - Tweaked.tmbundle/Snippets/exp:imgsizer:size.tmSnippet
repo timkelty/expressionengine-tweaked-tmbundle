@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{exp:imgsizer:size src="${1:{custom_field\}}" alt="${2:{title\}}"${3: width="$4"}${5: height="$6"}${7:${8: quality|mask|mask_radius|mask_threshold|justcheck|justurl|title|alt|id|class|cache}="${9:value}"}}$0</string>
+	<key>name</key>
+	<string>exp:imgsizer:size</string>
+	<key>scope</key>
+	<string>text.html.ee</string>
+	<key>tabTrigger</key>
+	<string>img</string>
+	<key>uuid</key>
+	<string>6FCFB149-876D-4D37-8799-DC10FD61106F</string>
+</dict>
+</plist>
