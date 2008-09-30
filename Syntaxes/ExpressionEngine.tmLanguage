@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>bundleUUID</key>
+	<string>0030951E-4F78-4C7C-9071-00ABDC866D4F</string>
 	<key>fileTypes</key>
 	<array>
 		<string>html</string>
@@ -13,6 +15,8 @@
 	<string>(\{(exp:([a-zA-Z0-9_:]+)|if )\b.*?\})|(&lt;(head|table|tr|div|style|script|ul|ol|form|dl)\b.*?&gt;)</string>
 	<key>foldingStopMarker</key>
 	<string>(\{/(exp:([a-zA-Z0-9_:]+)|if)\})|(&lt;/(head|table|tr|div|style|script|ul|ol|form|dl)&gt;)</string>
+	<key>keyEquivalent</key>
+	<string>^~E</string>
 	<key>name</key>
 	<string>ExpressionEngine</string>
 	<key>patterns</key>
@@ -86,18 +90,30 @@
 		<key>ee-comment</key>
 		<dict>
 			<key>begin</key>
-			<string>{!</string>
+			<string>{!--</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.html</string>
+				</dict>
+			</dict>
 			<key>end</key>
-			<string>}</string>
+			<string>--\s*}</string>
+			<key>name</key>
+			<string>comment.block.ee</string>
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>begin</key>
-					<string>--</string>
-					<key>end</key>
+					<key>match</key>
 					<string>--</string>
 					<key>name</key>
-					<string>comment.block.ee</string>
+					<string>invalid.illegal.bad-comments-or-CDATA.html</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#embedded-code</string>
 				</dict>
 			</array>
 		</dict>
@@ -319,6 +335,6 @@
 	<key>scopeName</key>
 	<string>text.html.ee</string>
 	<key>uuid</key>
-	<string>1F9513E7-D7F1-426F-ACE9-15F238263CAD</string>
+	<string>B47DFD28-B25E-4CC7-BFD4-1AEA1B84DA2F</string>
 </dict>
 </plist>
