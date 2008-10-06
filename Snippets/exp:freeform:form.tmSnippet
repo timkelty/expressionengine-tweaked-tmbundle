@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{exp:freeform:form form_name="${1:form_name}"${2: required="${3:name|email}"}${4: notify="${5:you@yourdomain.com}"}${6: template="${7:brief_version}"}${8: template="${9:user_email_template}"}${10: form_id="${12:my-id}"}${13: form_class="${14:my-class}"}${15: return="${16:my/template}"}}
+	<string>{exp:freeform:form form_name="${1:form_name}"${2: required="${3:name|email}"}${4: notify="${5:you@yourdomain.com}"}${6: template="${7:brief_version}"}${8: user_email_template="${9:user_email_template}"}${10: send_user_email="${11:yes|no}"}${12: form_id="${13:my-id}"}${14: form_class="${15:my-class}"}${16: return="${17:my/template}"}}
 ${0:$TM_SELECTED_TEXT}
 {/exp:freeform:form}</string>
 	<key>name</key>
