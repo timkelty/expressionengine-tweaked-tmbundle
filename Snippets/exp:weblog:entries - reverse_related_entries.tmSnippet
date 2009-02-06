@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{reverse_related_entries${1: weblog="${2:weblog_short_name}"}${3: ${4:status|sort|orderby|offset|limit}="${5:value}"}}${6:$TM_SELECTED_TEXT}{/reverse_related_entries}$0</string>
+	<string>{reverse_related_entries${1: weblog="${2:weblog_short_name}"}${3: ${4:status|sort|orderby|offset|limit}="${5:value}"}}${6:{if no_related_entries\}$7{/if\}}${8:$TM_SELECTED_TEXT}{/reverse_related_entries}</string>
 	<key>keyEquivalent</key>
 	<string>^@e</string>
 	<key>name</key>

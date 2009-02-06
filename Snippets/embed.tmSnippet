@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{embed="${1:template_group/template}"${2: ${3:my_weblog}="${4:plants}"}}$0</string>
+	<string>{embed="${1:template_group/template}"${2: ${3:entry_id}="${4:foo}"}}</string>
 	<key>name</key>
 	<string>embed</string>
 	<key>scope</key>

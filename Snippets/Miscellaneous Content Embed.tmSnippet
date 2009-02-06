@@ -5,8 +5,7 @@
 	<key>content</key>
 	<string>{exp:weblog:entries${2: entry_id}${3: url_title}${4: weblog}="${5:misc}" disable="categories|category_fields|member_data|pagination|trackbacks"${6: dynamic="off"}}
 	{cf-misc-body}
-{/exp:weblog:entries}
-$0</string>
+{/exp:weblog:entries}</string>
 	<key>name</key>
 	<string>Miscellaneous Content Embed</string>
 	<key>scope</key>

@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{if ${1:variable}${4: ${2:==} "${3:value}"}}${5:$TM_SELECTED_TEXT}${7:{if:else\}$8}{/if}$0</string>
+	<string>{exp:lg_replace:haystack needles="${1:test1|test2|test3|test4}"}
+${0:$TM_SELECTED_TEXT}
+{/exp:lg_replace:haystack}</string>
 	<key>keyEquivalent</key>
-	<string>^@i</string>
+	<string>^@p</string>
 	<key>name</key>
-	<string>{if ...}{if:else}</string>
+	<string>exp:lg_replace:haystack</string>
 	<key>scope</key>
 	<string>text.html.ee</string>
 	<key>tabTrigger</key>
-	<string>if</string>
+	<string>replace</string>
 	<key>uuid</key>
-	<string>93F7DDE7-38AB-4D5A-8BD5-00EAF3942767</string>
+	<string>5D1C97F6-8FB3-4BDF-A0D7-AD8319BE976E</string>
 </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{encode="${1:you@yoursite.com}" title="${2:Email Address}"}$0</string>
+	<string>{encode="${1:you@yoursite.com}" title="${2:Email Address}"}</string>
 	<key>name</key>
 	<string>encode</string>
 	<key>scope</key>

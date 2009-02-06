@@ -3,10 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{exp:weblog:entries ${1:weblog}="${2:value}"${3: disable="${4:custom_fields|}${5:categories|}${6:category_fields|}${7:member_data|}${8:pagination|}${9:trackbacks}"}${10: dynamic="off"}${11: parameters}}
-${12:{if no_results\}${13:{redirect="${14:404}"\}}{/if\}}
-${15:$TM_SELECTED_TEXT}
-{/exp:weblog:entries}$0</string>
+	<string>{exp:weblog:entries
+  ${1:weblog}="${2:value}"
+  ${3:disable="${4:custom_fields|}${5:categories|}${6:category_fields|}${7:member_data|}${8:pagination|}${9:trackbacks}"}
+  ${10:dynamic="off"}
+  ${11:require_entry="yes"}$12
+}
+${13:{if no_results\}${14:{redirect="${15:404}"\}}{/if\}}
+${16:$TM_SELECTED_TEXT}
+{/exp:weblog:entries}</string>
 	<key>keyEquivalent</key>
 	<string>^@e</string>
 	<key>name</key>

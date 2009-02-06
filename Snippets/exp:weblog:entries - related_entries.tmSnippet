@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{related_entries id="${1:field_name}"}${3:{if no_related_entries\}$4{/if\}}${5:$TM_SELECTED_TEXT}{/related_entries}$0</string>
+	<string>{related_entries id="${1:field_name}"}${3:{if no_related_entries\}$4{/if\}}${5:$TM_SELECTED_TEXT}{/related_entries}</string>
 	<key>keyEquivalent</key>
 	<string>^@e</string>
 	<key>name</key>

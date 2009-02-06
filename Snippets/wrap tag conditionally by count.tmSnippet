@@ -9,7 +9,7 @@ ${0:$TM_SELECTED_TEXT}
 	<key>keyEquivalent</key>
 	<string>^@i</string>
 	<key>name</key>
-	<string>wrap tag conditionally by count</string>
+	<string>{if count == "1"}{if count == total_results}</string>
 	<key>scope</key>
 	<string>text.html.ee</string>
 	<key>tabTrigger</key>

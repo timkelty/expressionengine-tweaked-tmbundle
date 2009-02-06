@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{exp:weblog:categories weblog="${1:weblog1}" ${2:parameters}}
+	<string>{exp:weblog:categories weblog="${1:weblog1}"${2: disable="category_fields"}${3: parameters}}
 $0
 {/exp:weblog:categories}</string>
 	<key>name</key>
