@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{exp:lg_replace:needle needle="${1:test1}"}
+	<string>{exp:lg_replace:replacement needle="${1:test1}"}
 ${0:$TM_SELECTED_TEXT}
-{/exp:lg_replace:needle}</string>
+{/exp:lg_replace:replacement}</string>
 	<key>keyEquivalent</key>
 	<string>^@p</string>
 	<key>name</key>
